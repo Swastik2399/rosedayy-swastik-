@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+    background-color: pink; /* Background color */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Animating the h1 tag */
+h1 {
+    color: black;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Animating the p tag */
+p {
+    color: black;
+    animation: slideIn 2s ease-in-out;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Keyframes for slide-in effect */
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
