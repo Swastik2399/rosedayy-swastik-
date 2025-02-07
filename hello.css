@@ -17,3 +17,6 @@ body{
     stroke-dashoffset: 0;
   }
  }
+h3, h2 {
+  color: yellow;
+}
